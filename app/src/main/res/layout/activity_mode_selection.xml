@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="32dp"
+    android:paddingVertical="48dp"
+    android:background="@drawable/bg_gradient_green">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_tractor"
+        app:tint="?attr/colorPrimary"
+        android:scaleType="fitCenter"
+        android:contentDescription="App logo" />
+
+    <!-- App Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAppearance="?attr/textAppearanceHeadlineMedium"
+        android:textStyle="bold"
+        android:textColor="?attr/colorPrimary"
+        android:layout_marginBottom="8dp"
+        android:gravity="center" />
+
+    <!-- Tagline -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_tagline"
+        android:textAppearance="?attr/textAppearanceBodyMedium"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:gravity="center"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Resident Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_user_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="🏠  Resident (User)"
+        android:textSize="17sp"
+        app:cornerRadius="14dp"
+        android:layout_marginBottom="14dp" />
+
+    <!-- Driver Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_driver_mode"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="🚜  Driver (Tractor)"
+        android:textSize="17sp"
+        app:cornerRadius="14dp"
+        android:layout_marginBottom="14dp" />
+
+    <!-- Admin Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_admin_mode"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="🏛️  Panchayat Admin"
+        android:textSize="17sp"
+        app:cornerRadius="14dp" />
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">ಗ್ರಾಮ ಶುಚಿ</string>
+    <string name="app_tagline">ಶುದ್ಧ ಗ್ರಾಮಗಳಿಗಾಗಿ ಸ್ಮಾರ್ಟ್ ತ್ಯಾಜ್ಯ ನಿರ್ವಹಣೆ</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">ಮುಖಪುಟ</string>
+    <string name="nav_live_map">ಲೈವ್ ಟ್ರ್ಯಾಕರ್</string>
+    <string name="nav_report">ವರದಿ</string>
+    <string name="nav_guide">ಮಾರ್ಗದರ್ಶಿ</string>
+
+    <!-- Auth -->
+    <string name="login_title">ಮುಂದುವರಿಯಲು ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
+    <string name="email_hint">ಇಮೇಲ್ ವಿಳಾಸ</string>
+    <string name="password_hint">ಪಾಸ್ವರ್ಡ್</string>
+    <string name="btn_sign_in">ಸೈನ್ ಇನ್</string>
+    <string name="or_continue">ಅಥವಾ</string>
+    <string name="btn_google">ಗೂಗಲ್ ಮೂಲಕ ಮುಂದುವರಿಸಿ</string>
+    <string name="new_resident">ಹೊಸ ನಿವಾಸಿಯೇ? ಇಲ್ಲಿ ನೋಂದಾಯಿಸಿ</string>
+    <string name="register_title">ಖಾತೆಯನ್ನು ರಚಿಸಿ</string>
+    <string name="name_hint">ಪೂರ್ಣ ಹೆಸರು</string>
+    <string name="confirm_password_hint">ಪಾಸ್ವರ್ಡ್ ಖಚಿತಪಡಿಸಿ</string>
+    <string name="btn_register">ನೋಂದಾಯಿಸಿ</string>
+    <string name="already_member">ಈಗಾಗಲೇ ಸದಸ್ಯರೇ? ಲಾಗಿನ್ ಮಾಡಿ</string>
+
+    <!-- Home Dashboard -->
+    <string name="welcome_resident">ನಿವಾಸಿಗಳಿಗೆ, ಸುಸ್ವಾಗತ 👋</string>
+    <string name="home_subtitle">ನಿಮ್ಮ ತ್ಯಾಜ್ಯ ಸಂಗ್ರಹಣೆಯನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ</string>
+    <string name="tractor_status">ಟ್ರ್ಯಾಕ್ಟರ್ ಸ್ಥಿತಿ</string>
+    <string name="tractor_status_label">ಟ್ರ್ಯಾಕ್ಟರ್ ಸ್ಥಿತಿ</string>
+    <string name="waiting_signal">ಸಿಗ್ನಲ್‌ಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ…</string>
+    <string name="btn_track">ಟ್ರ್ಯಾಕ್</string>
+    <string name="collection_schedule">ಸಂಗ್ರಹಣೆ ವೇಳಾಪಟ್ಟಿ</string>
+    <string name="wet_waste_label">🍃 ಹಸಿ ತ್ಯಾಜ್ಯ</string>
+    <string name="dry_waste_label">📦 ಒಣ ತ್ಯಾಜ್ಯ</string>
+    <string name="plastic_waste_label">♻️ ಪ್ಲಾಸ್ಟಿಕ್</string>
+    <string name="schedule_wet">ಸೋಮ, ಬುಧ, ಶುಕ್ರ</string>
+    <string name="schedule_dry">ಮಂಗಳ, ಗುರು</string>
+    <string name="schedule_plastic">ಶನಿವಾರ</string>
+    <string name="notif_tip">ಟ್ರ್ಯಾಕ್ಟರ್ ನಿಮ್ಮ ಮನೆಯ 100 ಮೀಟರ್ ಒಳಗಿರುವಾಗ ಎಚ್ಚರಿಕೆ ಪಡೆಯಲು ನೋಟಿಫಿಕೇಶನ್ ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="lang_toggle_en">English</string>
+    <string name="lang_toggle_kn">ಕನ್ನಡ</string>
+    <string name="lang_toggle_text">ಕನ್ನಡ</string>
+
+    <!-- Map / Tracker -->
+    <string name="status_far">📍 ಬಹಳ ದೂರದಲ್ಲಿದೆ</string>
+    <string name="status_en_route">🚜 ದಾರಿಯಲ್ಲಿದೆ</string>
+    <string name="status_nearby">📌 ಹತ್ತಿರದಲ್ಲಿದೆ</string>
+    <string name="status_arriving">🚚 ಈಗಲೇ ಬರುತ್ತದೆ</string>
+    <string name="status_arriving_soon">⏳ ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ!</string>
+    <string name="status_arriving_now">🔔 ಈಗಲೇ ಬರುತ್ತಿದೆ!</string>
+    <string name="status_collecting">🧹 ಸಂಗ್ರಹಿಸಲಾಗುತ್ತಿದೆ…</string>
+    <string name="status_idle">⏸ ಸ್ಥಗಿತಗೊಂಡಿದೆ</string>
+    <string name="status_moving">🟢 ಚಲಿಸುತ್ತಿದೆ %1$dಕಿಮೀ/ಗಂ</string>
+    <string name="dist_eta_format">%1$dಮೀ ದೂರದಲ್ಲಿದೆ • ETA %2$d ನಿಮಿಷ</string>
+    <string name="distance_away">ಟ್ರ್ಯಾಕ್ಟರ್ %1$dಮೀ ದೂರದಲ್ಲಿದೆ</string>
+    <string name="garbage_truck">ತ್ಯಾಜ್ಯ ಸಂಗ್ರಹಣಾ ಟ್ರ್ಯಾಕ್ಟರ್</string>
+    <string name="selected_location">ನಿಮ್ಮ ಸ್ಥಳ</string>
+    <string name="map_placeholder_text">ಗೂಗಲ್ ನಕ್ಷೆಗಳು ಲೋಡ್ ಆಗುತ್ತಿವೆ…</string>
+    <string name="arrival_alert">ಟ್ರ್ಯಾಕ್ಟರ್ ಶೀಘ್ರದಲ್ಲೇ ನಿಮ್ಮ ಮನೆಗೆ ತಲುಪಲಿದೆ.</string>
+
+    <!-- Reporting -->
+    <string name="blackspot_report_title">ಕಸದ ಸ್ಥಳವನ್ನು ವರದಿ ಮಾಡಿ 🗑️</string>
+    <string name="report_subtitle">ಫೋಟೋ ತೆಗೆಯಿರಿ ಮತ್ತು ನಾವು ಪಂಚಾಯತ್‌ಗೆ ತಿಳಿಸುತ್ತೇವೆ</string>
+    <string name="btn_select_photo">ಫೋಟೋ ಆಯ್ಕೆಮಾಡಿ / ತೆಗೆಯಿರಿ</string>
+    <string name="btn_submit_report">ವರದಿ ಸಲ್ಲಿಸಿ</string>
+    <string name="report_success_title">ವರದಿ ಸಲ್ಲಿಕೆಯಾಗಿದೆ!</string>
+    <string name="report_success_detail">ಪಂಚಾಯತ್‌ಗೆ ಮಾಹಿತಿ ನೀಡಲಾಗಿದೆ.</string>
+    <string name="uploading">ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+    <string name="select_photo_first">ದಯವಿಟ್ಟು ಮೊದಲು ಫೋಟೋ ಆಯ್ಕೆಮಾಡಿ</string>
+
+    <!-- Guide -->
+    <string name="guide_title">ತ್ಯಾಜ್ಯ ವಿಂಗಡಣೆ ಮಾರ್ಗದರ್ಶಿ</string>
+    <string name="guide_subtitle">ಶುದ್ಧ ಗ್ರಾಮಗಳಿಗಾಗಿ ನಿಮ್ಮ ತ್ಯಾಜ್ಯವನ್ನು ಸರಿಯಾಗಿ ವಿಂಗಡಿಸಿ</string>
+    <string name="wet_waste_title">ಹಸಿ ತ್ಯಾಜ್ಯ</string>
+    <string name="wet_waste_desc">ಆಹಾರದ ತುಣುಕುಗಳು, ತರಕಾರಿ ಸಿಪ್ಪೆಗಳು, ಹಣ್ಣಿನ ತ್ಯಾಜ್ಯ, ಎಲೆಗಳು, ಬೇಯಿಸಿದ ಆಹಾರ</string>
+    <string name="wet_waste_schedule">📅 ಸಂಗ್ರಹಣೆ: ಸೋಮ, ಬುಧ, ಶುಕ್ರ</string>
+    <string name="dry_waste_title">ಒಣ ತ್ಯಾಜ್ಯ</string>
+    <string name="dry_waste_desc">ಕಾಗದ, ರಟ್ಟಿನ ಪೆಟ್ಟಿಗೆ, ಗಾಜು, ಲೋಹದ ಡಬ್ಬಿಗಳು, ಬಟ್ಟೆ</string>
+    <string name="dry_waste_schedule">📅 ಸಂಗ್ರಹಣೆ: ಮಂಗಳ, ಗುರು</string>
+    <string name="plastic_recyclables_title">ಪ್ಲಾಸ್ಟಿಕ್ / ಮರುಬಳಕೆ ಮಾಡಬಹುದಾದ ವಸ್ತುಗಳು</string>
+    <string name="plastic_waste_desc">ಬಾಟಲಿಗಳು, ಚೀಲಗಳು, ಕಂಟೈನರ್‌ಗಳು, ಸ್ಟ್ರಾಗಳು — ಎಸೆಯುವ ಮೊದಲು ತೊಳೆದಿರಿ</string>
+    <string name="plastic_waste_schedule">📅 ಸಂಗ್ರಹಣೆ: ಶನಿವಾರ</string>
+    <string name="e_waste_title">ಇ-ತ್ಯಾಜ್ಯ</string>
+    <string name="e_waste_desc">ಹಳೆಯ ಫೋನ್‌ಗಳು, ಬ್ಯಾಟರಿಗಳು, ಚಾರ್ಜರ್‌ಗಳು, ಬಲ್ಬ್‌ಗಳು — ಎಚ್ಚರಿಕೆಯಿಂದ ನಿರ್ವಹಿಸಿ</string>
+    <string name="e_waste_office">🏭 ಪಂಚಾಯತ್ ಕಚೇರಿಯಲ್ಲಿ ಒಪ್ಪಿಸಿ</string>
+    <string name="segregation_tip">ಹಸಿ ಮತ್ತು ಒಣ ತ್ಯಾಜ್ಯಕ್ಕಾಗಿ ಮನೆಯಲ್ಲಿ ಪ್ರತ್ಯೇಕ ಬಿನ್‌ಗಳನ್ನು ಇರಿಸಿ. ಸರಿಯಾದ ವಿಂಗಡಣೆಯು ಗ್ರಾಮ ಪಂಚಾಯತ್‌ಗೆ ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಮರುಬಳಕೆ ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.</string>
+
+    <!-- Driver Dashboard -->
+    <string name="driver_dashboard">ಚಾಲಕರ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್</string>
+    <string name="assigned_blackspots">ನಿಯೋಜಿಸಲಾದ ಕಪ್ಪು ಚುಕ್ಕೆಗಳು</string>
+    <string name="no_assigned_work">ಯಾವುದೇ ಕೆಲಸ ನಿಯೋಜಿಸಲಾಗಿಲ್ಲ</string>
+    <string name="btn_navigate">ದಾರಿತೋರಿಸಿ</string>
+    <string name="btn_collected">ಸಂಗ್ರಹಿಸಲಾಗಿದೆ ✓</string>
+    <string name="btn_start_tracking">ಟ್ರ್ಯಾಕಿಂಗ್ ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="btn_stop_tracking">ಟ್ರ್ಯಾಕಿಂಗ್ ನಿಲ್ಲಿಸಿ</string>
+    <string name="status_not_tracking">ಟ್ರ್ಯಾಕಿಂಗ್ ಮಾಡುತ್ತಿಲ್ಲ</string>
+    <string name="status_tracking">ಟ್ರ್ಯಾಕಿಂಗ್ ಸಕ್ರಿಯವಾಗಿದೆ</string>
+    <string name="tractor_status_dashboard">ಟ್ರ್ಯಾಕ್ಟರ್ ಸ್ಥಿತಿ</string>
+    <string name="session_label">⏱ ಅವಧಿ</string>
+    <string name="last_sync_label">🔄 ಕೊನೆಯ ಸಿಂಕ್</string>
+    <string name="zone_label">ವಲಯ</string>
+    <string name="area_label">ಪ್ರದೇಶ</string>
+    <string name="driver_label">ಚಾಲಕ</string>
+    <string name="distance_label">ದೂರ</string>
+    <string name="stops_label">ನಿಲುಗಡೆಗಳು</string>
+    <string name="reported_at">ವರದಿ ಮಾಡಲಾಗಿದೆ: %1$s</string>
+
+    <!-- Notifications & Background Services -->
+    <string name="notif_channel_name">ಟ್ರ್ಯಾಕ್ಟರ್ ಎಚ್ಚರಿಕೆಗಳು</string>
+    <string name="notif_title">🚜 ಟ್ರ್ಯಾಕ್ಟರ್ ಹತ್ತಿರದಲ್ಲಿದೆ!</string>
+    <string name="notif_text">ಕಸದ ಟ್ರ್ಯಾಕ್ಟರ್ ನಿಮ್ಮ ಸ್ಥಳದಿಂದ 100 ಮೀಟರ್ ಒಳಗಿದೆ. ತ್ಯಾಜ್ಯವನ್ನು ಸಿದ್ಧವಾಗಿಡಿ!</string>
+    <string name="tracking_service_notification_title">ಟ್ರ್ಯಾಕ್ಟರ್ ಟ್ರ್ಯಾಕಿಂಗ್ ಸಕ್ರಿಯವಾಗಿದೆ</string>
+    <string name="tracking_service_notification_text">ನಿವಾಸಿಗಳಿಗೆ ಲೈವ್ ಸ್ಥಳ ನವೀಕರಣಗಳನ್ನು ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ.</string>
+
+    <!-- Misc -->
+    <string name="camera_permission_denied">ಅನುಮತಿ ನಿರಾಕರಿಸಲಾಗಿದೆ.</string>
+    <string name="sign_out">ಸೈನ್ ಔಟ್</string>
+    <string name="sign_out_confirm">ಚಾಲಕ ಮೋಡ್‌ನಿಂದ ಸೈನ್ ಔಟ್ ಮಾಡುವುದೇ?</string>
+    <string name="cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="mark_collected_success">✅ ಸಂಗ್ರಹಿಸಲಾಗಿದೆ ಎಂದು ಗುರುತಿಸಲಾಗಿದೆ — ದೃಢೀಕರಣಕ್ಕಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ</string>
+</resources>

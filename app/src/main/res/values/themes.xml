@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme — Light -->
+    <style name="Base.Theme.GramaWasteTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand green -->
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorOnPrimary">@color/green_on_primary</item>
+        <item name="colorPrimaryContainer">@color/green_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/green_on_primary_container</item>
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/green_secondary</item>
+        <item name="colorOnSecondary">@color/green_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/green_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/green_on_secondary_container</item>
+        <!-- Surface -->
+        <item name="colorSurface">@color/green_surface</item>
+        <item name="colorOnSurface">@color/green_on_surface</item>
+        <item name="colorSurfaceVariant">@color/green_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/green_on_surface_variant</item>
+        <item name="colorOutline">@color/green_outline</item>
+    </style>
+
+    <style name="Theme.GramaWasteTracker" parent="Base.Theme.GramaWasteTracker" />
+</resources>

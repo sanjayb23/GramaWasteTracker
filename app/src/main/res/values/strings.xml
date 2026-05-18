@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Grama Clean</string>
+    <string name="app_tagline">Smart Waste Management for Cleaner Villages</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_live_map">Live Tracker</string>
+    <string name="nav_report">Report</string>
+    <string name="nav_guide">Guide</string>
+
+    <!-- Auth -->
+    <string name="login_title">Sign in to continue</string>
+    <string name="email_hint">Email address</string>
+    <string name="password_hint">Password</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="or_continue">or</string>
+    <string name="btn_google">Continue with Google</string>
+    <string name="new_resident">New resident? Register here</string>
+    <string name="register_title">Create Account</string>
+    <string name="name_hint">Full Name</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="btn_register">Register</string>
+    <string name="already_member">Already a member? Login</string>
+
+    <!-- Home Dashboard -->
+    <string name="welcome_resident">Welcome, Resident 👋</string>
+    <string name="home_subtitle">Track your waste collection</string>
+    <string name="tractor_status_label">Tractor Status</string>
+    <string name="waiting_signal">Waiting for signal…</string>
+    <string name="btn_track">Track</string>
+    <string name="collection_schedule">Collection Schedule</string>
+    <string name="wet_waste_label">🍃 Wet Waste</string>
+    <string name="dry_waste_label">📦 Dry Waste</string>
+    <string name="plastic_waste_label">♻️ Plastic</string>
+    <string name="schedule_wet">Mon, Wed, Fri</string>
+    <string name="schedule_dry">Tue, Thu</string>
+    <string name="schedule_plastic">Saturday</string>
+    <string name="notif_tip">Enable notifications to get alerted when the tractor is within 100m of your home.</string>
+    <string name="lang_toggle_en">English</string>
+    <string name="lang_toggle_kn">ಕನ್ನಡ</string>
+    <string name="lang_toggle_text">ಕನ್ನಡ</string>
+
+    <!-- Map / Tracker -->
+    <string name="status_far">📍 Far Away</string>
+    <string name="status_en_route">🚜 En Route</string>
+    <string name="status_nearby">📌 Nearby</string>
+    <string name="status_arriving">🚚 Arriving</string>
+    <string name="status_arriving_soon">⏳ Arriving Soon!</string>
+    <string name="status_arriving_now">🔔 Arriving NOW!</string>
+    <string name="status_collecting">🧹 Collecting…</string>
+    <string name="status_idle">⏸ Idle</string>
+    <string name="status_moving">🟢 Moving %1$dkm/h</string>
+    <string name="dist_eta_format">%1$dm away • ETA %2$d min</string>
+    <string name="distance_away">Tractor is %1$dm away</string>
+    <string name="garbage_truck">Collection Tractor</string>
+    <string name="selected_location">Your Location</string>
+    <string name="map_placeholder_text">Google Maps Loading…</string>
+    <string name="arrival_alert">The tractor will reach your door soon.</string>
+
+    <!-- Reporting -->
+    <string name="blackspot_report_title">Report Garbage Blackspot 🗑️</string>
+    <string name="report_subtitle">Take a photo and we\'ll notify the Panchayat</string>
+    <string name="btn_select_photo">Select / Take Photo</string>
+    <string name="btn_submit_report">Submit Garbage Report</string>
+    <string name="report_success_title">Report Submitted!</string>
+    <string name="report_success_detail">The Panchayat has been notified.</string>
+    <string name="uploading">Uploading…</string>
+    <string name="select_photo_first">Please select a photo first</string>
+
+    <!-- Guide -->
+    <string name="guide_title">Waste Segregation Guide</string>
+    <string name="guide_subtitle">Sort your waste correctly for cleaner villages</string>
+    <string name="wet_waste_title">Wet Waste</string>
+    <string name="wet_waste_desc">Food scraps, vegetable peels, fruit waste, leaves, cooked food</string>
+    <string name="wet_waste_schedule">📅 Collected: Mon, Wed, Fri</string>
+    <string name="dry_waste_title">Dry Waste</string>
+    <string name="dry_waste_desc">Paper, cardboard, glass, metal cans, cloth</string>
+    <string name="dry_waste_schedule">📅 Collected: Tue, Thu</string>
+    <string name="plastic_recyclables_title">Plastic / Recyclables</string>
+    <string name="plastic_waste_desc">Bottles, bags, containers, straws — rinse before discarding</string>
+    <string name="plastic_waste_schedule">📅 Collected: Saturday</string>
+    <string name="e_waste_title">E-Waste</string>
+    <string name="e_waste_desc">Old phones, batteries, chargers, bulbs — handle with care</string>
+    <string name="e_waste_office">🏭 Drop at Panchayat Office</string>
+    <string name="segregation_tip">Keep separate bins at home for wet and dry waste. Proper segregation helps the Grama Panchayat recycle more effectively.</string>
+
+    <!-- Driver Dashboard -->
+    <string name="driver_dashboard">Driver Dashboard</string>
+    <string name="assigned_blackspots">Assigned Blackspots</string>
+    <string name="no_assigned_work">No assigned work</string>
+    <string name="btn_navigate">Navigate</string>
+    <string name="btn_collected">Collected ✓</string>
+    <string name="btn_start_tracking">Start Tracking</string>
+    <string name="btn_stop_tracking">Stop Tracking</string>
+    <string name="status_not_tracking">Not Tracking</string>
+    <string name="status_tracking">Tracking Active</string>
+    <string name="tractor_status">Tractor Status</string>
+    <string name="tractor_status_dashboard">Tractor Status</string>
+    <string name="session_label">⏱ Session</string>
+    <string name="last_sync_label">🔄 Last Sync</string>
+    <string name="zone_label">Zone</string>
+    <string name="area_label">Area</string>
+    <string name="driver_label">Driver</string>
+    <string name="distance_label">Distance</string>
+    <string name="stops_label">Stops</string>
+    <string name="reported_at">Reported: %1$s</string>
+
+    <!-- Notifications & Background Services -->
+    <string name="notif_channel_name">Tractor Alerts</string>
+    <string name="notif_title">🚜 Tractor is nearby!</string>
+    <string name="notif_text">The garbage tractor is within 100m of your location. Keep waste ready!</string>
+    <string name="tracking_service_notification_title">Tractor Tracking Active</string>
+    <string name="tracking_service_notification_text">Sending live location updates to residents.</string>
+
+    <!-- Misc -->
+    <string name="camera_permission_denied">Camera permission is required.</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_out_confirm">Sign out of Driver mode?</string>
+    <string name="cancel">Cancel</string>
+    <string name="mark_collected_success">✅ Marked collected — awaiting confirmation</string>
+</resources>

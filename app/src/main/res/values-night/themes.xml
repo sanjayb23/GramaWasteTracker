@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme — Dark -->
+    <style name="Base.Theme.GramaWasteTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand green (lighter for dark backgrounds) -->
+        <item name="colorPrimary">@color/green_primary_dark</item>
+        <item name="colorOnPrimary">@color/green_on_primary_dark</item>
+        <item name="colorPrimaryContainer">@color/green_primary_container_dark</item>
+        <item name="colorOnPrimaryContainer">@color/green_on_primary_container_dark</item>
+        <!-- Surface -->
+        <item name="colorSurface">@color/green_surface_dark</item>
+        <item name="colorOnSurface">@color/green_surface</item>
+        <item name="colorSurfaceVariant">@color/green_surface_variant_dark</item>
+    </style>
+</resources>

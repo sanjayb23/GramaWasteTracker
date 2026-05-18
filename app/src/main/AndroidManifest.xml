@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GramaWasteTracker">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCjtmL_pJ_xxSoJUjVlEr0iI7482kSiwlQ" />
+
+        <!-- ══ LAUNCHER: Splash ══ -->
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true"
+            android:noHistory="true"
+            android:theme="@style/Theme.GramaWasteTracker">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Auth -->
+        <activity android:name=".ui.auth.LoginActivity"    android:exported="false" />
+        <activity android:name=".ui.auth.RegisterActivity" android:exported="false" />
+
+        <!-- Mode Selection -->
+        <activity android:name=".ui.ModeSelectionActivity" android:exported="false" />
+
+        <!-- Resident (bottom nav) -->
+        <activity android:name=".MainActivity" android:exported="false" />
+
+        <!-- Driver -->
+        <activity android:name=".ui.driver.DriverActivity" android:exported="false" />
+
+        <!-- Admin -->
+        <activity android:name=".ui.admin.AdminActivity" android:exported="false" />
+
+        <!-- Legacy (kept for compatibility) -->
+        <activity android:name=".ui.user.UserDashboardActivity" android:exported="false" />
+        <activity android:name=".ui.user.UserActivity"          android:exported="false" />
+
+        <!-- Foreground GPS service -->
+        <service
+            android:name=".services.TrackingService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="location" />
+
+    </application>
+</manifest>

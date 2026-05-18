@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- GramaWasteTracker Brand — Green Eco Palette -->
+    <color name="green_primary">#2E7D32</color>
+    <color name="green_on_primary">#FFFFFF</color>
+    <color name="green_primary_container">#B7F0B1</color>
+    <color name="green_on_primary_container">#002204</color>
+
+    <color name="green_secondary">#52634F</color>
+    <color name="green_on_secondary">#FFFFFF</color>
+    <color name="green_secondary_container">#D5E8CE</color>
+    <color name="green_on_secondary_container">#101F0F</color>
+
+    <color name="green_surface">#F6FBF3</color>
+    <color name="green_on_surface">#191D18</color>
+    <color name="green_surface_variant">#DEE5D8</color>
+    <color name="green_on_surface_variant">#424940</color>
+    <color name="green_outline">#72796F</color>
+
+    <!-- Dark theme variants -->
+    <color name="green_primary_dark">#8DD68A</color>
+    <color name="green_on_primary_dark">#003909</color>
+    <color name="green_primary_container_dark">#0A5E12</color>
+    <color name="green_on_primary_container_dark">#B7F0B1</color>
+
+    <color name="green_surface_dark">#191D18</color>
+    <color name="green_surface_variant_dark">#424940</color>
+
+    <!-- Semantic -->
+    <color name="status_green">#4CAF50</color>
+    <color name="status_red">#F44336</color>
+</resources>
